@@ -1,0 +1,70 @@
+*{
+    background-color:beige;
+    padding:0px;
+    margin:0px;
+}
+header h1{
+    background-color:darksalmon;
+    text-align: center;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+section{
+    margin:10px 100px;
+    display:flex;
+    flex-wrap: wrap;
+}
+section .card{
+    width:33.33%;
+    min-width:250px;
+    max-width:250px;
+    padding:15px;
+    display: flex;
+    flex-direction: column;
+    cursor:pointer;
+}
+.card img{
+    display:block;
+    width:100%;
+}
+.card h3{
+    color:#fff;
+    font-size: 20px;
+    font-weight:500;
+    padding:10px;
+    background: #445565;
+    flex:1 1 100%;
+}
+.card h3:hover{
+    color:#445565;
+    background: #fff;
+}
+#inputfield{
+    border: 0;
+    background: #fff;
+    display: block;
+    width: 70%;
+    padding: 10px;
+    font-size: 18px;
+    color: #666;
+    margin:10px auto;
+    border-radius: 3px;
+    height: 30px;
+    color: #555;
+}
+#input-field input.placeholder {
+    color: #999;
+    font-size: 18px;
+}
